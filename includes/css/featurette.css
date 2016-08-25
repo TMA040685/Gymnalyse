@@ -1,0 +1,26 @@
+/* ------------------------------------ */
+/*		FEATURETTE		*/
+/* ------------------------------------ */
+
+.featurette-divider {
+	margin: 80px 0;	/* increase the Bootstrap <hr> more */
+}
+
+/* Thinout the makethin headings */
+.featurette-headings {
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+
+/* Responsive css */
+@media (min-width: 768px) {
+	.featurette-heading {
+		font-size: 50px;
+	}
+}
+@media (min-width: 992px) {
+	.featurette-heading {
+		margin-top: 50px;
+	}
+}

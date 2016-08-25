@@ -20,14 +20,14 @@
         				set or if the registration script caused an error. -->
         			<div class="row featurette">
 					<div class="col-md-7 col-md-push-3">
-					<h2 class="featurette-heading"><span class="text-muted">Gymnalyse</span> bruger registring.</h2>
+					<h2 class="featurette-heading"><span class="text-muted">Gymnalyse</span> brugerregistrering.</h2>
 					<?php
 						if ( !empty($error_msg)) {
 							echo $error_msg;
 						}
 					?>
 					<p class="lead">
-						For at registrer dig som bruger af systemet skal du udfylde nedest&aring;ende formular, hvorefter
+						For at registrere dig som bruger af systemet skal du udfylde nedest&aring;ende formular, hvorefter
 						du vil kunne logge ind i systemtet.
 					</p>
 					<style type="text/css">

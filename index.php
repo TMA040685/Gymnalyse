@@ -81,7 +81,7 @@
                                         		er 30 tilf&aelig;ldige punkter. Figuren viser hvorledes en simuleret klasse vil fordele sig i modellen
                                         		som Gymnalyse er baseret p&aring;. Den grafiske model p&aring; Gymnalyse er udarbejdet med udgangspunkt.
 							i bogen "<span class="text-primary">Unges motivation og l&aelig;ring</span>", og figuren dannes p&aring; baggrund 
-							af elev besv&aelig;relser
+							af elevbesvarelser
                                         </p>
 						</p>
 					</div>

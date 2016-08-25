@@ -58,7 +58,11 @@
                                                         <span class="text-muted">Af: </span> <span class="text-primary">Gymnalyse</span>
                                                 </p>
                                                 <p class="lead">
-                                                        V&aelig;lg hvilken klasse du gerne vi se klassespejlet for.
+							<?php 
+								if ($skole == "MG") {$hisk = "Marselisborg Gymnasium";};
+							?>
+                                                        Du har valgt <span class="text-primary"><?php echo $hisk;?></span>. Du skal nu v&aelig;lge hvilken 
+							klasse du gerne vi se klassespejlet for.
                                                 </p>
 
                                                 <style type="text/css">
@@ -74,6 +78,14 @@
                                                         onkeydown="if (event.keyCode == 13) document.getElementById('next').click()" novalidate="novalidate">
                                                 <div class="form-group">
 							<input type="hidden" name="skole" value="<?php echo $skole; ?>">
+						</div>
+						<div class="form-group">
+							<label class="control-label col-xs-3" for="year">V&aelig;lg en &aring;rgang: <span class="text-danger">*</span></label>
+							<div class="btn-group" data-toggle="buttons">
+                                                                <?php
+                                                                        include_once '/modules/getYears.php';
+                                                                ?>
+                                                        </div>
 						</div>
 						<div class="form-group">
                                                         <label class="control-label col-xs-3" for="klasse">V&aelig;lg klasse: <span class="text-danger">*</span></label>
